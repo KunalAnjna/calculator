@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Calculator</title>
+<link rel="stylesheet" href="cal.css">  
+</head>
+<body>
+  <div class="calculator" role="application" aria-label="Calculator">
+    <div class="display" id="display" role="textbox" aria-live="polite" aria-atomic="true">0</div>
+    <div class="buttons">
+      <button type="button" data-action="clear">C</button>
+      <button type="button" data-action="delete">DEL</button>
+      <button type="button" data-action="divide" class="operator">÷</button>
+      <button type="button" data-action="multiply" class="operator">×</button>
+
+      <button type="button" data-action="7">7</button>
+      <button type="button" data-action="8">8</button>
+      <button type="button" data-action="9">9</button>
+      <button type="button" data-action="subtract" class="operator">−</button>
+
+      <button type="button" data-action="4">4</button>
+      <button type="button" data-action="5">5</button>
+      <button type="button" data-action="6">6</button>
+      <button type="button" data-action="add" class="operator">+</button>
+
+      <button type="button" data-action="1">1</button>
+      <button type="button" data-action="2">2</button>
+      <button type="button" data-action="3">3</button>
+      <button type="button" data-action="equals" class="operator">=</button>
+
+      <button type="button" data-action="0" class="zero">0</button>
+      <button type="button" data-action="decimal">.</button>
+    </div>
+  </div>
+ <script src="cal.js"></script>
+</body>
+</html>
+
